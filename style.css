@@ -1,0 +1,254 @@
+
+a{
+    text-decoration: none !important;
+}
+
+header{
+    background-image: url('home_vFINAL.png');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+.dropdown button {
+    background-color: #2c5756bd !important;
+    color: #FFF;
+    border-radius: 0px;
+}
+
+.navbar-toggler{
+    border:1px solid #FFF
+}
+.navbar-toggler span{
+    color:#FFF;
+}
+
+header  .dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: -1%;
+  }
+
+
+.navbar ul li a{
+    color:#FFF !important;
+}
+.navbar ul li{
+    margin-right: 25px;
+}
+
+.navbar-default {
+    transition: 500ms ease;
+    background: transparent;
+    height: 90px;
+}
+  .navbar-default.scrolled{
+    background: #007e8c;
+    height: 80px;
+  }
+
+  .dropdown-toggle::after{
+      display: none !important;
+  }
+ 
+  .dropdown:hover .show { 
+        display: block !important;
+  }
+
+  button:focus{
+      box-shadow: none !important;
+  }
+
+
+    .dropdown-menu{
+        min-width: 7rem !important;
+    }
+
+    .header-content{
+        padding: 130px 0px;
+    }
+
+    .lear-more a{
+        padding: 10px 40px;
+        color:#FFF;
+       border-radius: 30px;
+       background-color: #e03e52;
+       border:1px solid #e03e52;
+    }
+
+    .lear-more a:hover{
+        background-color: transparent;
+        border:1px solid #FFF;
+        transition: .6s ease-in-out;
+    }
+    .lear-more a:hover{
+        color:#FFF;
+    }
+
+    .header-content h1 {
+        font-size: 50px;
+    }
+
+    .header-content h1 span{
+        font-weight: 800;
+    }
+
+    .futures{
+        padding: 60px 0px;
+    }
+    .futures-sec h2{
+        color:#56af40;
+    }
+
+    .futures-sec h2 span {
+        font-weight: 700;
+        border-bottom: 4px solid #56af40;
+    }
+
+    .futures-content h6{
+        color:#007e8c;
+    }
+
+    .futures-box.text-center {
+        padding: 10px;
+    }
+    .submit-btn a{
+        padding: 10px 30px;
+        background-color: #e03e52;
+        color:#FFF;
+        border-radius: 30px;
+        border:1px solid #e03e52;
+    }
+    .submit-btn a:hover{
+        color:#FFF;
+    }
+
+    .submit-btn a:hover{
+        background-color: transparent;
+        border:1px solid #FFF;
+        transition: .6s ease-in-out;
+
+    }
+
+    .footer{
+        background-color: #19737d;
+        padding: 60px 0px;
+        position: relative;
+    }
+    .footer h5{
+        color:#FFF;
+    }
+    .footer ul li a{
+        color:#bff3f9;
+    }
+
+    .footer ul li:hover a{
+        transition: .4s;
+    }
+    .footer p{
+        color:#bff3f9;
+    }
+
+    .footer  .fab:hover{
+
+          margin-top: -5px;
+          transition: .4s ease-in-out;
+    }
+
+   
+
+    .footer-email input{
+        background-color: transparent !important;
+        border-radius: 0px;
+    }
+    .footer-email input:focus{
+        box-shadow: none;
+    }
+    .footer-email  .form-control{
+        color:#FFF !important;
+    }
+
+    ::placeholder{
+        color:#FFF !important;
+    }
+
+    .back-img::before{
+        content: '';
+        position: absolute;
+        width: 40%;
+        height: 100%;
+        z-index: 1;
+        background-color: #007e8c;
+        top:0%;
+        right: 0%;
+        clip-path: polygon(50% 0%, 100% 0, 100% 60%, 100% 100%, 25% 100%, 6% 71%, 10% 20%);
+    }
+    .footer-email {
+        z-index: 1;
+    }
+
+    .footer-content {
+        z-index: 1;
+    }
+   
+    .footer-section {
+        z-index: 1;
+    }
+
+    .footer ul li:hover a::before {
+        transform: scale(1,1);
+        transform-origin: right center;
+    }
+
+    .footer ul li a{
+        position: relative;
+    }
+
+    .footer ul li a::before {
+        content: '';
+        position: absolute;
+        border-bottom: 1px dotted #FFF;
+        width: 100%;
+        height: 1px;
+        transform: scale(0,1);
+        transform-origin: left center;
+        bottom: 0%;
+        left: 0%;
+        transition: transform 500ms 
+
+    }
+@media (max-width: 575.98px) { 
+    .futures-sec h2 span {
+      
+        border-bottom:none !important;
+    }
+
+   header .dropdown .dropdown-menu{
+        left: 100px !important;
+    }
+    .footer-section {
+       margin-top: 30px;
+    }
+
+    .footer-email {
+       margin-top:30px;
+    }
+ }
+
+@media (max-width: 767.98px) { 
+
+ }
+
+@media (max-width: 991.98px) { 
+     .navbar-collapse{
+         background-color: #007e8c93;
+         padding: 10px;
+         text-align: center;
+     }
+ }
+
+@media (max-width: 1199.98px) { 
+
+
+}
